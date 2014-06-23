@@ -28,3 +28,5 @@ TARGET_RECOVERY_FSTAB = device/asus/flo/recovery.fstab
 
 -include vendor/asus/flo/BoardConfigVendor.mk
 include device/asus/flo/BoardConfigCommon.mk
+
+TARGET_NO_BOOTLOADER := true
